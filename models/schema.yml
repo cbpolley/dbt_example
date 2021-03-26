@@ -5,7 +5,7 @@ models:
     description: One record per customer with fields from orders
     columns:
         - name: customer_id
-          description: Primary key of the model
+          description: Primary key of the model customer
           tests:
             - unique
             - not_null
